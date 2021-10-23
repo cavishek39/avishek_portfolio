@@ -1,43 +1,24 @@
 export const projects = [
   {
-    title: 'Signal Clone',
-    description:
-      'Using React Native, Firebase, I build a full Stack chat application - from start to finish. The App is basically a clone of Signal app.',
+    title: 'Signal App Clone',
+    description: `A secure text messaging application inspired by the Signal
+application. Here users can chat one-to-one as well as chat with
+groups of people.`,
     image: '/images/1.png',
-    tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    tags: ['React-Native', 'TypeScript', 'Firebase,', 'React-Navigation v5'],
+    source: 'https://github.com/cavishek39/signal-clone',
+    visit: 'https://github.com/cavishek39/signal-clone',
     id: 0,
   },
   {
-    title: 'E-Commerce',
-    description:
-      "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
+    title: 'VPN App',
+    description: `1. A VPN app where I used React Native technology for the UI design
+this application.`,
     image: '/images/2.png',
-    tags: ['React', 'JavaScript'],
+    tags: ['React-Native', 'React-Navigation v5', 'TypeScript', 'Redux'],
     source: 'https://google.com',
     visit: 'https://google.com',
     id: 1,
-  },
-  {
-    title: 'WebRTC App',
-    description:
-      "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-    image: '/images/3.jpg',
-    tags: ['React', 'WebRTC'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 2,
-  },
-  {
-    title: 'Unichat',
-    description:
-      'This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application',
-    image: '/images/4.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 3,
   },
 ]
 

@@ -14,11 +14,20 @@ groups of people.`,
     title: 'VPN App',
     description: `1. A VPN app where I used React Native technology for the UI design
 this application.`,
-    image: '/images/2.png',
+    image: '/images/vpn.png',
     tags: ['React-Native', 'React-Navigation v5', 'TypeScript', 'Redux'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    source: 'https://github.com/cavishek39/VPN-app-React-Native',
+    visit: 'https://github.com/cavishek39/VPN-app-React-Native',
     id: 1,
+  },
+  {
+    title: 'TicTacToe',
+    description: `1. A TicTacToe multiplayer game.`,
+    image: '/images/tic-tac-toe.png',
+    tags: ['Android', 'Java', 'Firebase'],
+    source: 'https://github.com/cavishek39/TicTacToe',
+    visit: 'https://github.com/cavishek39/TicTacToe',
+    id: 2,
   },
 ]
 

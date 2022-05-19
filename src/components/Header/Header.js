@@ -39,13 +39,22 @@ const Header = () => (
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href='https://www.linkedin.com/in/avishek-c-211855124/'>
+      <SocialIcons
+        target='_blank'
+        rel='noopener noreferrer'
+        href='https://www.linkedin.com/in/avishek-c-211855124/'>
         <AiFillLinkedin size='3rem' />
       </SocialIcons>
-      <SocialIcons href='https://github.com/cavishek39'>
+      <SocialIcons
+        target='_blank'
+        rel='noopener noreferrer'
+        href='https://github.com/cavishek39'>
         <AiFillGithub size='3rem' />
       </SocialIcons>
-      <SocialIcons href='https://google.com'>
+      <SocialIcons
+        target='_blank'
+        rel='noopener noreferrer'
+        href='https://google.com'>
         <AiFillInstagram size='3rem' />
       </SocialIcons>
     </Div3>

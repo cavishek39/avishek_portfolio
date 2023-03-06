@@ -30,7 +30,7 @@ const Projects = () => (
           <BlogCard key={i}>
             <Img src={p.image} />
             <TitleContent>
-              <HeaderThree title={p.title} />
+              <HeaderThree className='header-three'>{p.title}</HeaderThree>
               <Hr />
             </TitleContent>
             <CardInfo className='card-info'>{p.description}</CardInfo>
@@ -46,10 +46,15 @@ const Projects = () => (
               <ExternalLinks
                 target='_blank'
                 rel='noopener noreferrer'
-                href={p.visit}>
+                href={p.source}>
                 Code
               </ExternalLinks>
-              <ExternalLinks href={p.source}>Source</ExternalLinks>
+              <ExternalLinks
+                target='_blank'
+                rel='noopener noreferrer'
+                href={p.visit}>
+                Source
+              </ExternalLinks>
             </UtilityList>
           </BlogCard>
         )

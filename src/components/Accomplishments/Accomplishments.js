@@ -9,7 +9,7 @@ import { Box, Boxes, BoxNum, BoxText } from './AccomplishmentsStyles'
 
 const data = [
   { number: 3, text: 'Deployed production level Mobile App' },
-  { number: 2, text: 'Internships' },
+  { number: 3, text: 'Internships' },
   { number: '4th', text: 'Position in CSI In-App Global Hackathon 2021' },
   { number: '4', text: 'Star Coder in HackerRank' },
 ]

@@ -75,7 +75,7 @@ const Technologies = () => (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with, <br />
-            Node <br />
+            Node, GraphQL, DGraph <br />
             SQL and NoSQL Databases
           </ListParagraph>
         </ListContainer>

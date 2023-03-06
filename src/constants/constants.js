@@ -1,15 +1,15 @@
 export const projects = [
   {
-    title: 'Signal App Clone',
-    description: `A secure text messaging application inspired by the Signal
-application. Here users can chat one-to-one as well as chat with
-groups of people.`,
+    title: 'Coin Newz',
+    description: `To check list of all the crytpo coins and their instant market information under the hood.
+    With realtime update.`,
     image: '/images/1.png',
     tags: ['React-Native', 'TypeScript', 'Firebase,', 'React-Navigation v5'],
-    source: 'https://github.com/cavishek39/signal-clone',
-    visit: 'https://github.com/cavishek39/signal-clone',
+    visit: 'https://coin-newz-cavishek39.vercel.app/',
+    source: 'https://github.com/cavishek39/coin-newz',
     id: 0,
   },
+
   {
     title: 'VPN App',
     description: `1. A VPN app where I used React Native technology for the UI design
@@ -22,12 +22,21 @@ this application.`,
   },
   {
     title: 'TicTacToe',
-    description: `1. A TicTacToe multiplayer game.`,
+    description: `A TicTacToe multiplayer game.`,
     image: '/images/tic-tac-toe.png',
     tags: ['Android', 'Java', 'Firebase'],
     source: 'https://github.com/cavishek39/TicTacToe',
     visit: 'https://github.com/cavishek39/TicTacToe',
     id: 2,
+  },
+  {
+    title: 'Groupper',
+    description: `Groupper is a Full Stack 1-2-1 as well as group Chatting Application.`,
+    image: '/images/groupper.png',
+    tags: ['React JS', 'Node JS', 'Mongo DB'],
+    source: 'https://github.com/cavishek39/cavishek-chat-app',
+    visit: 'https://groupper.netlify.app/',
+    id: 3,
   },
 ]
 
@@ -48,6 +57,14 @@ export const TimeLineData = [
   {
     year: 2021,
     text: 'Enrolled for BE in CSE and learning new cutting edge tools and frameworks.',
+  },
+  {
+    year: 2021,
+    text: 'Enrolled for BE in CSE and learning new cutting edge tools and frameworks.',
+  },
+  {
+    year: 2022,
+    text: 'Accomplished 2 internships and deployed their apps in playstore and secure 4th pos. in CSI In-App competition.',
   },
 ]
 

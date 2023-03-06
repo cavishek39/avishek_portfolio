@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Img = styled.img`
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   overflow: hidden;
 `
 
@@ -34,14 +34,17 @@ export const TitleContent = styled.div`
   text-align: center;
   z-index: 20;
   width: 100%;
+  padding-top: 3px;
 `
 
 export const HeaderThree = styled.h3`
   font-weight: 500;
   letter-spacing: 2px;
   color: #9cc9e3;
-  padding: 0.5rem 0;
+  z-index: 20;
+  padding: 1.2rem;
   font-size: ${(props) => (!!props.title ? '3rem' : '2rem')};
+  /* background-color: blue; */
 `
 
 export const Hr = styled.hr`

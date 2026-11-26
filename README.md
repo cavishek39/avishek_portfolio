@@ -1,12 +1,12 @@
-## Personal Portfolio
+# Avishek Chatterjee — Portfolio
 
-### [Live Site](https://jsmasterypro.com)
+Personal portfolio built with Next.js, React, and styled-components. The site is
+exported as static files for deployment on AWS Amplify Hosting.
 
-![image](https://user-images.githubusercontent.com/71460522/223132078-7b042e63-0d95-46f2-a524-56b85819b563.png)
+## Development
 
-This is a code repository for the corresponding video tutorial. Your portfolio is your resume and your business card.
-
-In this video, we will create a full Personal Development Portfolio. We're going to use React and Next.js.
-
-Setup:
-- run ```npm i && npm start```
+- Use Node.js 20.9 or newer.
+- Install dependencies with `yarn install`.
+- Start the development server with `yarn dev`.
+- Create a static production build with `yarn build`. The deployable files are
+  written to `out/`.

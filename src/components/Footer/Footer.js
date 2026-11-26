@@ -28,7 +28,7 @@ const Footer = () => {
           <Slogan>Engineering reliable products from idea to production.</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons target='_blank' rel='noopener noreferrer' href='https://www.linkedin.com/in/avishek-c-211855124/'>
+          <SocialIcons target='_blank' rel='noopener noreferrer' href='https://www.linkedin.com/in/cavishek39/'>
             <AiFillLinkedin size='3rem' />
           </SocialIcons>
           <SocialIcons target='_blank' rel='noopener noreferrer' href='https://github.com/cavishek39'>

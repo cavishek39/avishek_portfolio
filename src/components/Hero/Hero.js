@@ -17,8 +17,8 @@ const Hero = (props) => (
         </SectionTitle>
         <SectionText>{intro}</SectionText>
         <SectionText>
-          I build backend platforms and full-stack product experiences, from API
-          design and data workflows to production operations.
+          I work across mobile and full-stack development, backend APIs, payment
+          workflows, and AI-powered applications.
         </SectionText>
         <ContactLink href='mailto:cavishek39@gmail.com'>Get in touch</ContactLink>
       </LeftSection>

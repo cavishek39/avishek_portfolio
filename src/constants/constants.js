@@ -1,53 +1,65 @@
 export const projects = [
   {
-    title: 'Billing & subscription platform',
+    title: 'Wishup - Office in your pocket',
     description:
-      'Designed and rebuilt core estimate and subscription services with validated billing operations, wallet and credit workflows, and an auditable change history.',
-    tags: ['Node.js', 'TypeScript', 'GraphQL', 'Prisma', 'PostgreSQL'],
+      'Led end-to-end development of Wishup’s React Native mobile app, shipping core features on Android and iOS. Built with Expo and Tamagui, backed by Node.js, Express, GraphQL, PostgreSQL, Prisma, Auth0, and Docker.',
+    tags: ['React Native', 'Expo', 'Tamagui', 'Node.js', 'GraphQL', 'PostgreSQL'],
     visit: 'https://wishup.work/',
     visitLabel: 'Wishup.work',
     id: 0,
   },
   {
-    title: 'Reliable background processing',
+    title: 'Med_AI - Medical Report Summarizer',
     description:
-      'Built a dedicated job and scheduled-task platform with retries, dead-letter handling, idempotent jobs, and event-level visibility on AWS.',
-    tags: ['BullMQ', 'Redis', 'AWS ECS', 'Node.js'],
+      'Built a retrieval-augmented generation app that summarizes medical reports with Gemini AI and retrieves relevant context from Pinecone.',
+    tags: ['Next.js', 'Gemini AI', 'Pinecone', 'RAG', 'Radix UI'],
     id: 1,
   },
   {
-    title: 'AI chat assistant',
+    title: 'Resume Right',
     description:
-      'Built backend services for an AI assistant that summarizes chat threads, drafts replies, and helps users clarify next steps across web and mobile.',
-    tags: ['Node.js', 'MongoDB', 'GraphQL', 'AI integrations'],
+      'Created an AI tool that tailors a resume to a job description, using a document processing and generation pipeline.',
+    tags: ['Next.js', 'TypeScript', 'Fastify', 'SQLite', 'OpenAI API'],
     id: 2,
   },
   {
-    title: 'Real-time chat performance',
+    title: 'CoinNewz',
     description:
-      'Improved chat reliability and query performance with database indexing, selective denormalization, caching, and Redis infrastructure updates.',
-    tags: ['PostgreSQL', 'Redis', 'GraphQL', 'AWS ElastiCache'],
+      'Built a place to check real-time cryptocurrency data.',
+    tags: ['Next.js', 'Firebase', 'Tailwind CSS', 'TypeScript'],
     id: 3,
   },
 ]
 
 export const TimeLineData = [
   {
-    year: 'Education',
-    text: 'Studied Computer Science, built a foundation in software engineering, and graduated with a BE in Computer Science and Engineering from University Institute of Technology, The University of Burdwan.',
+    period: '2020–2023',
+    organization: 'University Institute of Technology, The University of Burdwan',
+    role: 'B.E. · Computer Science and Engineering',
+    text: 'Graduated with an 8.5 score.',
   },
   {
-    year: '2022',
-    text: 'Completed internships, shipped mobile apps, and placed fourth in the CSI In-App competition. This early product work built the foundation for my move into full-stack and backend engineering.',
+    period: 'Jan–Dec 2023',
+    organization: 'Tractor Junction',
+    role: 'Software Developer Engineer-1',
+    text: 'Worked across business-critical products, improved client-side caching to reduce load times by 40%, and helped resolve deployment environment issues.',
   },
   {
-    year: '2025–2026',
-    text: 'Led backend and platform work across billing, lead management, AI features, job infrastructure, and production web experiences at Wishup.',
+    period: 'Dec 2023–Mar 2026',
+    organization: 'Wishup Technology Private Limited',
+    role: 'Software Developer Engineer-1',
+    text: 'Built backend services and APIs, a cross-platform mobile app, chat, analytics, and a context-aware assistant using LangChain and LangGraph.',
+  },
+  {
+    period: 'Apr 2026–Present',
+    organization: 'Wishup Technology Private Limited',
+    role: 'Software Developer Engineer-2',
+    text: 'Own production backend features across payment and operations, including Stripe and Razorpay flows, VA lifecycle automation, Pipedrive activity syncing, and reliability improvements.',
   },
 ]
 
 export const intro =
-  'Full-stack and backend engineer building reliable products, APIs, and platform systems.'
+  'Software Developer Engineer-2 at Wishup, building mobile products and dependable backend systems.'
 
 export const aboutMe =
-  'I’m a software engineer focused on turning complex product and operational needs into dependable systems. My recent work spans Node.js and TypeScript services, GraphQL APIs, billing and subscription workflows, real-time chat, AI features, and AWS infrastructure. I enjoy owning work end to end: understanding the problem, designing the service, shipping safely, and improving it with production feedback.'
+  'I’m a software engineer working across mobile apps, backend services, and AI-powered products. At Wishup, I’ve shipped payment and operational workflows, built mobile and chat experiences, and improved service reliability. I enjoy taking a feature from design through production and making it work well for the people who rely on it.'

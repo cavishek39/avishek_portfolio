@@ -27,8 +27,8 @@ const Technologies = () => (
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I work across application development and platform engineering, with a
-      recent focus on backend systems, data workflows, and AWS operations.
+      Tools and technologies I use across mobile, web, backend, data, and AI
+      projects.
     </SectionText>
     <List>
       <ListItem>
@@ -40,8 +40,7 @@ const Technologies = () => (
           <ListTitle>Languages</ListTitle>
           <ListParagraph>
             JavaScript <br />
-            TypeScript <br />
-            Java
+            TypeScript
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -55,7 +54,7 @@ const Technologies = () => (
           <ListParagraph>
             React <br />
             React Native <br />
-            Next.js
+            Next.js · Redux · Tailwind CSS
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -68,9 +67,9 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Node.js · GraphQL <br />
-            Prisma · PostgreSQL <br />
-            MongoDB · Redis · BullMQ
+            Node.js · Express.js <br />
+            REST APIs · GraphQL <br />
+            PostgreSQL
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -81,9 +80,9 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Cloud &amp; delivery</ListTitle>
           <ListParagraph>
-            AWS ECS, S3, SES <br />
-            ElastiCache <br />
-            Background jobs &amp; queues
+            AWS · Docker <br />
+            LangChain · LangGraph <br />
+            Gemini AI · Pinecone
           </ListParagraph>
         </ListContainer>
       </ListItem>

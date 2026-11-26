@@ -7,6 +7,8 @@ import {
   CarouselContainer,
   CarouselItem,
   CarouselItemImg,
+  CarouselItemOrganization,
+  CarouselItemRole,
   CarouselItemText,
   CarouselItemTitle,
   CarouselMobileScrollNode,
@@ -65,7 +67,7 @@ const Timeline = () => {
 
   return (
     <Section id='about'>
-      <SectionTitle>About Me</SectionTitle>
+      <SectionTitle>Experience &amp; Education</SectionTitle>
       <SectionText>{aboutMe}</SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
@@ -79,7 +81,7 @@ const Timeline = () => {
                 active={activeItem}
                 onClick={(e) => handleClick(e, index)}>
                 <CarouselItemTitle>
-                  {`${item.year}`}
+                  {item.period}
                   <CarouselItemImg
                     width='208'
                     height='6'
@@ -111,6 +113,8 @@ const Timeline = () => {
                     </defs>
                   </CarouselItemImg>
                 </CarouselItemTitle>
+                <CarouselItemOrganization>{item.organization}</CarouselItemOrganization>
+                <CarouselItemRole>{item.role}</CarouselItemRole>
                 <CarouselItemText>{item.text}</CarouselItemText>
               </CarouselItem>
             </CarouselMobileScrollNode>

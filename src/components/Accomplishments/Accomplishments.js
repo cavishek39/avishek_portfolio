@@ -8,15 +8,15 @@ import {
 import { Box, Boxes, BoxNum, BoxText } from './AccomplishmentsStyles'
 
 const data = [
-  { number: '01', text: 'Own features from discovery through production' },
-  { number: '02', text: 'Build resilient APIs and background systems' },
-  { number: '03', text: 'Improve performance with data-led debugging' },
-  { number: '04', text: 'Ship across web, mobile, and cloud infrastructure' },
+  { number: '01', text: '4th place, 2021 CSI-InApp International Student Project Awards' },
+  { number: '02', text: 'HackerRank 4-star Problem Solving' },
+  { number: '03', text: 'Reduced client-side load times by 40% at Tractor Junction' },
+  { number: '04', text: 'Shipped a cross-platform Wishup app for Android and iOS' },
 ]
 
 const Accomplishments = () => (
   <Section>
-    <SectionTitle>How I work</SectionTitle>
+    <SectionTitle>Highlights</SectionTitle>
     <Boxes>
       {data.map((card, index) => (
         <Box key={index}>

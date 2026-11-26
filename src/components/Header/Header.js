@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai'
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
 import { DiCssdeck } from 'react-icons/di'
 
 import {
@@ -17,7 +17,7 @@ const Header = () => (
     <Div1>
       <Link href='/'>
         <a style={{ display: 'flex', alignItems: 'center', color: 'white' }}>
-          <DiCssdeck size='3rem' /> <span>Portfolio</span>
+          <DiCssdeck size='3rem' /> <span>Avishek</span>
         </a>
       </Link>
     </Div1>
@@ -50,12 +50,6 @@ const Header = () => (
         rel='noopener noreferrer'
         href='https://github.com/cavishek39'>
         <AiFillGithub size='3rem' />
-      </SocialIcons>
-      <SocialIcons
-        target='_blank'
-        rel='noopener noreferrer'
-        href='https://google.com'>
-        <AiFillInstagram size='3rem' />
       </SocialIcons>
     </Div3>
   </Container>

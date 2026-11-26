@@ -1,75 +1,53 @@
 export const projects = [
   {
-    title: 'Coin Newz',
-    description: `To check list of all the crytpo coins and their instant market information under the hood.
-    With realtime update.`,
-    image: '/images/1.png',
-    tags: ['React-Native', 'TypeScript', 'Firebase,', 'React-Navigation v5'],
-    visit: 'https://coin-newz-cavishek39.vercel.app/',
-    source: 'https://github.com/cavishek39/coin-newz',
+    title: 'Billing & subscription platform',
+    description:
+      'Designed and rebuilt core estimate and subscription services with validated billing operations, wallet and credit workflows, and an auditable change history.',
+    tags: ['Node.js', 'TypeScript', 'GraphQL', 'Prisma', 'PostgreSQL'],
+    visit: 'https://wishup.work/',
+    visitLabel: 'Wishup.work',
     id: 0,
   },
-
   {
-    title: 'VPN App',
-    description: `1. A VPN app where I used React Native technology for the UI design
-this application.`,
-    image: '/images/vpn.png',
-    tags: ['React-Native', 'React-Navigation v5', 'TypeScript', 'Redux'],
-    source: 'https://github.com/cavishek39/VPN-app-React-Native',
-    visit: 'https://github.com/cavishek39/VPN-app-React-Native',
+    title: 'Reliable background processing',
+    description:
+      'Built a dedicated job and scheduled-task platform with retries, dead-letter handling, idempotent jobs, and event-level visibility on AWS.',
+    tags: ['BullMQ', 'Redis', 'AWS ECS', 'Node.js'],
     id: 1,
   },
   {
-    title: 'TicTacToe',
-    description: `A TicTacToe multiplayer game.`,
-    image: '/images/tic-tac-toe.png',
-    tags: ['Android', 'Java', 'Firebase'],
-    source: 'https://github.com/cavishek39/TicTacToe',
-    visit: 'https://github.com/cavishek39/TicTacToe',
+    title: 'AI chat assistant',
+    description:
+      'Built backend services for an AI assistant that summarizes chat threads, drafts replies, and helps users clarify next steps across web and mobile.',
+    tags: ['Node.js', 'MongoDB', 'GraphQL', 'AI integrations'],
     id: 2,
   },
   {
-    title: 'Groupper',
-    description: `Groupper is a Full Stack 1-2-1 as well as group Chatting Application.`,
-    image: '/images/groupper.png',
-    tags: ['React JS', 'Node JS', 'Mongo DB'],
-    source: 'https://github.com/cavishek39/cavishek-chat-app',
-    visit: 'https://groupper.netlify.app/',
+    title: 'Real-time chat performance',
+    description:
+      'Improved chat reliability and query performance with database indexing, selective denormalization, caching, and Redis infrastructure updates.',
+    tags: ['PostgreSQL', 'Redis', 'GraphQL', 'AWS ElastiCache'],
     id: 3,
   },
 ]
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey in the field of Computer Science.' },
   {
-    year: 2018,
-    text: 'Learnt C, C++ and Java and other CS core fundamentals.',
+    year: 'Education',
+    text: 'Studied Computer Science, built a foundation in software engineering, and graduated with a BE in Computer Science and Engineering from University Institute of Technology, The University of Burdwan.',
   },
   {
-    year: 2019,
-    text: 'Built my first multiplayer Android TicTacToe app using Android Studio (Java) and Firebase.',
+    year: '2022',
+    text: 'Completed internships, shipped mobile apps, and placed fourth in the CSI In-App competition. This early product work built the foundation for my move into full-stack and backend engineering.',
   },
   {
-    year: 2020,
-    text: 'Completed my Diploma in CS with Distinction and started doing internships.',
-  },
-  {
-    year: 2021,
-    text: 'Enrolled for BE in CSE and learning new cutting edge tools and frameworks.',
-  },
-  {
-    year: 2021,
-    text: 'Enrolled for BE in CSE and learning new cutting edge tools and frameworks.',
-  },
-  {
-    year: 2022,
-    text: 'Accomplished 2 internships and deployed their apps in playstore and secure 4th pos. in CSI In-App competition.',
+    year: '2025–2026',
+    text: 'Led backend and platform work across billing, lead management, AI features, job infrastructure, and production web experiences at Wishup.',
   },
 ]
 
 export const intro =
-  'Computer Science Engineer, Mobile Application Developer (React Native) and a Full-Stack JS Developer'
+  'Full-stack and backend engineer building reliable products, APIs, and platform systems.'
 
 export const aboutMe =
-  'Experienced Mobile Application Developer with a demonstrated history of working in the internet industry. Skilled in Computer Science, Java, JavaScript, React, Microsoft Excel, and Amazon Web Services (AWS). Strong engineering professional with a Bachelor of Engineering - BE focused in Computer Science and Engineering from University Institute of Technology, The University of Burdwan.'
+  'I’m a software engineer focused on turning complex product and operational needs into dependable systems. My recent work spans Node.js and TypeScript services, GraphQL APIs, billing and subscription workflows, real-time chat, AI features, and AWS infrastructure. I enjoy owning work end to end: understanding the problem, designing the service, shipping safely, and improving it with production feedback.'

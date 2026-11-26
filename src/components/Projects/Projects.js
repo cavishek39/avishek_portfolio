@@ -28,7 +28,7 @@ const Projects = () => (
       {projects.map((p, i) => {
         return (
           <BlogCard key={i}>
-            <Img src={p.image} />
+            {p.image && <Img src={p.image} alt={`${p.title} project`} />}
             <TitleContent>
               <HeaderThree className='header-three'>{p.title}</HeaderThree>
               <Hr />
@@ -42,20 +42,18 @@ const Projects = () => (
                 })}
               </TagList>
             </div>
-            <UtilityList>
-              <ExternalLinks
-                target='_blank'
-                rel='noopener noreferrer'
-                href={p.source}>
-                Code
-              </ExternalLinks>
-              <ExternalLinks
-                target='_blank'
-                rel='noopener noreferrer'
-                href={p.visit}>
-                Source
-              </ExternalLinks>
-            </UtilityList>
+            {(p.source || p.visit) && <UtilityList>
+              {p.source && (
+                <ExternalLinks target='_blank' rel='noopener noreferrer' href={p.source}>
+                  Code
+                </ExternalLinks>
+              )}
+              {p.visit && (
+                <ExternalLinks target='_blank' rel='noopener noreferrer' href={p.visit}>
+                  {p.visitLabel || 'Visit'}
+                </ExternalLinks>
+              )}
+            </UtilityList>}
           </BlogCard>
         )
       })}

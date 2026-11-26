@@ -6,21 +6,21 @@ import {
   SectionText,
   SectionTitle,
 } from '../../styles/GlobalComponents'
-import Button from '../../styles/GlobalComponents/Button'
-import { LeftSection } from './HeroStyles'
+import { ContactLink, LeftSection } from './HeroStyles'
 
 const Hero = (props) => (
   <>
     <Section row nopadding>
       <LeftSection>
-        {/* <SectionTitle center></SectionTitle> */}
         <SectionTitle main center>
-          Hi, I am <br />
-          Avishek Chatterjee <br /> Welcome To <br />
-          My Personal Portfolio
+          Avishek Chatterjee
         </SectionTitle>
         <SectionText>{intro}</SectionText>
-        {/* <Button onClick={props.handleClick}>Learn More</Button> */}
+        <SectionText>
+          I build backend platforms and full-stack product experiences, from API
+          design and data workflows to production operations.
+        </SectionText>
+        <ContactLink href='mailto:cavishek39@gmail.com'>Get in touch</ContactLink>
       </LeftSection>
     </Section>
   </>

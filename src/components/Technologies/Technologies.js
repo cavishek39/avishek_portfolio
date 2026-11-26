@@ -4,11 +4,9 @@ import {
   DiAws,
   DiDatabase,
   DiJava,
-  DiJavascript,
   DiJavascript1,
   DiNodejs,
   DiReact,
-  DiZend,
 } from 'react-icons/di'
 import {
   Section,
@@ -29,9 +27,8 @@ const Technologies = () => (
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with a range a technologies in the mobile and as well as web
-      development world. From Front-end development to Back-end development To
-      Design.
+      I work across application development and platform engineering, with a
+      recent focus on backend systems, data workflows, and AWS operations.
     </SectionText>
     <List>
       <ListItem>
@@ -42,11 +39,9 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Languages</ListTitle>
           <ListParagraph>
-            Experiece with, <br />
-            Java <br />
-            C++ <br />
             JavaScript <br />
             TypeScript <br />
+            Java
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -58,9 +53,8 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experiece with, <br />
+            React <br />
             React Native <br />
-            React.js <br />
             Next.js
           </ListParagraph>
         </ListContainer>
@@ -74,21 +68,22 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Experience with, <br />
-            Node, GraphQL, DGraph <br />
-            SQL and NoSQL Databases
+            Node.js · GraphQL <br />
+            Prisma · PostgreSQL <br />
+            MongoDB · Redis · BullMQ
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <picture>
-          <DiZend size='3rem' />
+          <DiAws size='3rem' />
         </picture>
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>Cloud &amp; delivery</ListTitle>
           <ListParagraph>
-            Experience with tools like, <br />
-            Figma
+            AWS ECS, S3, SES <br />
+            ElastiCache <br />
+            Background jobs &amp; queues
           </ListParagraph>
         </ListContainer>
       </ListItem>

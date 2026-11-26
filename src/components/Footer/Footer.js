@@ -1,5 +1,5 @@
 import React from 'react'
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai'
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
 
 import { SocialIcons } from '../Header/HeaderStyles'
 import {
@@ -19,27 +19,20 @@ const Footer = () => {
     <FooterWrapper>
       <LinkList>
         <LinkColumn>
-          <LinkTitle>Call</LinkTitle>
-          <LinkItem href='tel:+91-629-613-0757'>+91-629-613-0757</LinkItem>
-        </LinkColumn>
-        <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href='cavishek39@gmail.com'>cavishek39@gmail.com</LinkItem>
+          <LinkItem href='mailto:cavishek39@gmail.com'>cavishek39@gmail.com</LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Never stop learning because life never stops</Slogan>
+          <Slogan>Engineering reliable products from idea to production.</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href='https://www.linkedin.com/in/avishek-c-211855124/'>
+          <SocialIcons target='_blank' rel='noopener noreferrer' href='https://www.linkedin.com/in/avishek-c-211855124/'>
             <AiFillLinkedin size='3rem' />
           </SocialIcons>
-          <SocialIcons href='https://github.com/cavishek39'>
+          <SocialIcons target='_blank' rel='noopener noreferrer' href='https://github.com/cavishek39'>
             <AiFillGithub size='3rem' />
-          </SocialIcons>
-          <SocialIcons href='https://google.com'>
-            <AiFillInstagram size='3rem' />
           </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>

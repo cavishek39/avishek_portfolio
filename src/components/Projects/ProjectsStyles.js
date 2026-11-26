@@ -9,40 +9,53 @@ export const Img = styled.img`
 
 export const GridContainer = styled.section`
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  padding: 3rem;
-  place-items: center;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  padding: 3rem 0;
+  place-items: stretch;
   column-gap: 2rem;
   row-gap: 3rem;
   @media ${(props) => props.theme.breakpoints.sm} {
     display: flex;
     flex-direction: column;
-    padding: 2rem;
+    padding: 2rem 0;
     padding-bottom: 0;
   }
 `
 export const BlogCard = styled.div`
-  border-radius: 10px;
-  box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
-  text-align: center;
-  width: 400px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(33, 45, 69, 0.72);
+  border-radius: 16px;
+  text-align: left;
+  width: 100%;
+  min-height: 310px;
+  padding: 2.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1.2rem;
+  transition: transform 180ms ease, border-color 180ms ease;
+  &:hover {
+    transform: translateY(-4px);
+    border-color: rgba(19, 173, 199, 0.6);
+  }
   @media ${(props) => props.theme.breakpoints.sm} {
-    width: 100%;
+    min-height: 0;
+    padding: 2rem;
   }
 `
 export const TitleContent = styled.div`
-  text-align: center;
+  text-align: left;
   z-index: 20;
   width: 100%;
-  padding-top: 3px;
+  padding-top: 0;
 `
 
 export const HeaderThree = styled.h3`
   font-weight: 500;
-  letter-spacing: 2px;
+  letter-spacing: 0;
   color: #9cc9e3;
   z-index: 20;
-  padding: 1.2rem;
+  padding: 0;
   font-size: ${(props) => (!!props.title ? '3rem' : '2rem')};
   /* background-color: blue; */
 `
@@ -67,13 +80,13 @@ export const Intro = styled.div`
 
 export const CardInfo = styled.p`
   width: 100%;
-  padding: 0 50px;
+  padding: 0;
   color: #e4e6e7;
   font-style: 2rem;
   line-height: 24px;
-  text-align: justify;
+  text-align: left;
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding: 0.3rem;
+    padding: 0;
   }
 `
 
@@ -82,27 +95,34 @@ export const UtilityList = styled.ul`
   padding: 0;
   display: flex;
   justify-content: space-around;
-  margin: 2.5rem 0;
+  margin: auto 0 0;
+  justify-content: flex-start;
 `
 
 export const ExternalLinks = styled.a`
   color: #d4c0c0;
   font-size: 1.6rem;
   padding: 1rem 1.5rem;
-  background: #6b3030;
-  border-radius: 15px;
+  background: rgba(19, 173, 199, 0.14);
+  border: 1px solid rgba(19, 173, 199, 0.3);
+  border-radius: 999px;
   transition: 0.5s;
   &:hover {
-    background: #801414;
+    background: rgba(19, 173, 199, 0.3);
   }
 `
 
 export const TagList = styled.ul`
   display: flex;
-  justify-content: space-around;
-  padding: 2rem;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  padding: 0;
 `
 export const Tag = styled.li`
   color: #d8bfbf;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 999px;
+  padding: 0.5rem 0.9rem;
 `

@@ -31,6 +31,11 @@ export default class MyDocument extends Document {
     return (
       <Html lang='en-GB'>
         <Head>
+          <title>Avishek Chatterjee | Full-Stack &amp; Backend Engineer</title>
+          <meta
+            name='description'
+            content='Portfolio of Avishek Chatterjee, a full-stack and backend engineer building reliable products, APIs, and platform systems.'
+          />
           <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
         </Head>
         <body>

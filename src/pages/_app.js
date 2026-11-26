@@ -1,6 +1,10 @@
 import Theme from '../styles/theme';
 
 export default function App({ Component, pageProps }) {
+  if (Component.noSiteTheme) {
+    return <Component {...pageProps} />
+  }
+
   return (
     <>
       <Theme>
@@ -9,4 +13,4 @@ export default function App({ Component, pageProps }) {
     </>
   );
 }
- 
+

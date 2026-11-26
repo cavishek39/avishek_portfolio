@@ -1,0 +1,23 @@
+backend:
+  name: github
+  repo: cavishek39/avishek_portfolio
+  branch: main
+
+media_folder: public/resumes
+public_folder: /resumes
+
+collections:
+  - name: site
+    label: Site settings
+    files:
+      - name: resume
+        label: Resume
+        file: content/resume.json
+        format: json
+        fields:
+          - label: Resume PDF
+            name: file
+            widget: file
+            choose_url: false
+            media_folder: public/resumes
+            public_folder: /resumes

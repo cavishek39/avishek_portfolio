@@ -18,18 +18,33 @@ export const LeftSection = styled.div`
   }
 `;
 
+export const ActionLinks = styled.div`
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  margin: 0 0 5rem;
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    margin-bottom: 3rem;
+  }
+`;
+
 export const ContactLink = styled.a`
   display: inline-flex;
   align-items: center;
   justify-content: center;
   width: fit-content;
-  margin: 0 0 5rem;
+  margin: 0;
   padding: 1.2rem 2rem;
   border-radius: 999px;
   color: #fff;
   font-size: 1.6rem;
   font-weight: 600;
-  background: linear-gradient(110deg, #13adc7, #945dd6);
+  background: ${({ $secondary }) =>
+    $secondary ? 'rgba(33, 45, 69, 0.8)' : 'linear-gradient(110deg, #13adc7, #945dd6)'};
+  border: 1px solid ${({ $secondary }) =>
+    $secondary ? 'rgba(255, 255, 255, 0.24)' : 'transparent'};
   transition: transform 180ms ease, filter 180ms ease;
   &:hover {
     transform: translateY(-2px);
@@ -38,8 +53,5 @@ export const ContactLink = styled.a`
   &:focus-visible {
     outline: 2px solid #fff;
     outline-offset: 3px;
-  }
-  @media ${(props) => props.theme.breakpoints.sm} {
-    margin-bottom: 3rem;
   }
 `;

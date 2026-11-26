@@ -1,12 +1,13 @@
 import React from 'react'
-import { aboutMe, intro } from '../../constants/constants'
+import { intro } from '../../constants/constants'
+import resume from '../../../content/resume.json'
 
 import {
   Section,
   SectionText,
   SectionTitle,
 } from '../../styles/GlobalComponents'
-import { ContactLink, LeftSection } from './HeroStyles'
+import { ActionLinks, ContactLink, LeftSection } from './HeroStyles'
 
 const Hero = (props) => (
   <>
@@ -20,7 +21,18 @@ const Hero = (props) => (
           I work across mobile and full-stack development, backend APIs, payment
           workflows, and AI-powered applications.
         </SectionText>
-        <ContactLink href='mailto:cavishek39@gmail.com'>Get in touch</ContactLink>
+        <ActionLinks>
+          <ContactLink href='mailto:cavishek39@gmail.com'>Get in touch</ContactLink>
+          {resume.file && resume.file.toLowerCase().endsWith('.pdf') && (
+            <ContactLink
+              href={resume.file}
+              download='Avishek-Chatterjee-Resume.pdf'
+              $secondary
+            >
+              Download resume
+            </ContactLink>
+          )}
+        </ActionLinks>
       </LeftSection>
     </Section>
   </>
